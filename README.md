@@ -57,3 +57,25 @@ Helps estimate time, cost, and resources needed. Enables better sprint planning 
   - Enables accurate test cases (e.g., "Verify login works with 10,000 concurrent users" for non-functional requirements).
 
 - Example: A social media app’s requirement for "real-time notifications" dictates the choice of WebSockets over HTTP polling.
+
+## Key Activities in Requirement Analysis.
+- Requirement Gathering
+  - What: Collecting high-level needs from stakeholders (clients, users, regulators).
+  - How: Interviews, surveys, market research.
+  - Goal: Identify what the system should achieve (e.g., "Users need secure login").
+- Requirement Elicitation
+  - What: Extracting detailed, actionable requirements through collaboration.
+  - How: Workshops, brainstorming, prototyping.
+  - Goal: Uncover hidden needs (e.g., "Login must support 2FA").
+- Requirement Documentation
+  - What: Structuring requirements into clear, standardized formats.
+  - How: SRS (Software Requirements Specification), user stories, use cases.
+  - Goal: Create a single source of truth for developers/testers.
+- Requirement Analysis and Modeling
+  - What: Refining requirements for feasibility and consistency.
+  - How: Diagrams (UML, BPMN), prioritization (MoSCoW).
+  - Goal: Resolve conflicts and define how the system will work.
+- Requirement Validation.
+  - What: Ensuring requirements align with stakeholder expectations.
+  - How: Reviews, walkthroughs, acceptance criteria checks.
+  - Goal: Confirm the right system is being built before coding begins.
