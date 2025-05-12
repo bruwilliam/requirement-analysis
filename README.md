@@ -23,3 +23,37 @@ Developers use requirements to architect the system. QA teams rely on them to cr
 
 5. Supports Project Planning<br>
 Helps estimate time, cost, and resources needed. Enables better sprint planning in Agile methodologies.
+
+## Why is Requirement Analysis Important?
+### 1. Ensures Alignment with Business & User Needs
+- Why it matters: Misunderstood or vague requirements lead to software that doesn’t solve the intended problem.
+
+- Impact:
+
+  - Prevents wasted effort by clarifying what the system must do (e.g., "Users need a one-click checkout" vs. assumed features).
+
+  - Bridges gaps between stakeholders (clients, users, developers) through documentation like SRS (Software Requirements Specification).
+
+- Example: A banking app without proper requirement analysis might miss critical fraud detection features, leading to security risks.
+### 2. Reduces Cost & Rework
+- Why it matters: Fixing errors in later phases (e.g., development or testing) is 5–100x more expensive than fixing them during requirements analysis (IBM Systems Sciences Institute).
+
+- Impact:
+
+  - Identifies conflicts, ambiguities, or missing requirements early (e.g., "Does ‘fast’ mean 1-second or 5-second response time?").
+
+  - Avoids scope creep (uncontrolled feature additions) by prioritizing needs (e.g., MoSCoW method: Must-have vs. Nice-to-have).
+
+- Example: A poorly analyzed e-commerce requirement might lead to rebuilding the payment gateway mid-project, increasing costs.
+
+
+### 3. Forms the Foundation for Design & Testing
+- Why it matters: Developers and testers rely on requirements to build and validate the system.
+
+- Impact:
+
+  - Guides system architecture (e.g., microservices vs. monolith based on scalability needs).
+
+  - Enables accurate test cases (e.g., "Verify login works with 10,000 concurrent users" for non-functional requirements).
+
+- Example: A social media app’s requirement for "real-time notifications" dictates the choice of WebSockets over HTTP polling.
