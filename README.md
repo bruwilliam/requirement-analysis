@@ -121,4 +121,4 @@ Benefits
 - Identifies missing requirements.
 - Guides development and testing.
 
-![Use case diagram for the airbnb_clone project] (./Images/alx-booking-uc.pgn)
+![Use case diagram for the airbnb_clone project] (Images/alx-booking-uc.pgn)
