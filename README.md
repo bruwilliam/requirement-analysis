@@ -101,3 +101,24 @@ Helps estimate time, cost, and resources needed. Enables better sprint planning 
 
 For example, for the airbnb system;
 The booking server should request for recent data through reddis.
+
+## Use Case Diagrams.
+Use case diagrams are a type of UML (Unified Modeling Language) diagram that visually represents the interactions between users (actors) and a system to achieve specific goals. They help capture functional requirements in a simple, high-level way.<br>
+
+Key Components
+- Actors
+  - Roles interacting with the system (e.g., User, Admin, Payment Gateway).
+  - Represented as stick figures.
+- Use Cases
+  - Actions/functionalities the system provides (e.g., Login, Process Order, Generate Report).
+  - Drawn as ovals.
+- Relationships
+  - Associations (lines between actors and use cases).
+  - Includes/Extends (for reusable or conditional behaviors).<br>
+
+Benefits
+- Simplifies complex systems.
+- Identifies missing requirements.
+- Guides development and testing.
+
+![Use case diagram for the airbnb_clone project] (https://drive.google.com/file/d/12rElDPUFHa_waZfQcdzLnhHMERlAqT7k/view?usp=sharing)
