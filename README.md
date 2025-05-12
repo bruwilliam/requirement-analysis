@@ -122,3 +122,12 @@ Benefits
 - Guides development and testing.
 
 ![Use case diagram for the airbnb_clone project] (Images/alx-booking-uc.png)
+
+## Acceptance Criteria.
+Acceptance Criteria (AC) are a set of specific, measurable, and testable conditions that a software feature must meet to be accepted by stakeholders (users, clients, or product owners). They act as the "definition of done" for a requirement, bridging the gap between high-level needs and actionable development tasks.<br>
+**Acceptance Criteria (Detailed & Testable)**
+- Payment Method Selection
+  - Given the customer has added items to their cart,
+  - When they reach the checkout page,
+  - Then they must see available payment options (Credit Card, PayPal, Apple Pay).
+
