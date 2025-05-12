@@ -79,3 +79,25 @@ Helps estimate time, cost, and resources needed. Enables better sprint planning 
   - What: Ensuring requirements align with stakeholder expectations.
   - How: Reviews, walkthroughs, acceptance criteria checks.
   - Goal: Confirm the right system is being built before coding begins.
+ 
+  ## Types of Requirements.
+  ### Functional Requirements.
+  Functional requirements define the specific actions, behaviors, and capabilities a software system must perform to meet user and business needs. They describe what the system should do and are typically expressed as inputs, operations, and expected outputs.<br>
+**Key Characteristics**
+  - Action-Oriented – Specify tasks the system must execute (e.g., "User can reset password").
+  - Testable – Must have clear pass/fail criteria (e.g., "System sends confirmation email after signup").
+  - User-Focused – Often phrased as features (e.g., "Search bar filters products by price range").
+    
+  For example, for the airbnb system;
+  - The guests/visitors should be able to search for available hotels.
+  - Hotel management should get a notification when a hotel room is available.
+  ### Non functional Requirements.
+  Non-functional requirements (NFRs) define the quality attributes, constraints, and performance standards of a software system. They describe how the system should behave rather than what it should do (unlike functional requirements). NFRs ensure the system is reliable, scalable, secure, and user-friendly.
+
+**Key Characteristics**
+  - System-Wide Impact – Affect the entire system, not just individual features.
+  - Measurable – Often quantified (e.g., "Response time < 2 seconds").
+  - Critical for UX & Stability – Poor NFRs lead to slow, insecure, or hard-to-maintain software.
+
+For example, for the airbnb system;
+The booking server should request for recent data through reddis.
